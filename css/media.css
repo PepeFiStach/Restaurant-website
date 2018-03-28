@@ -120,6 +120,55 @@
 	.food-menu-list-item-left-special::before {
 		right: -1px;
 	}
+	.reviews-center-side h2 {
+		font-size: 30px;
+	}
+	.reviews-center-side p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.reservations-first-img {
+		display: none;
+	}
+	.reservations-second-img {
+		display: none;
+	}
+	.reservations-form-inner  {
+		width: 100%;
+	}
+	.reservations-form-column {
+		width: 100%;
+	}
+	.reservations-form-column {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.footer-column {
+		width: 100%;
+		border-bottom: 1px solid #999;
+		margin-bottom: 20px;
+	}
+	.footer-column-inner p {
+		padding-top: 10px;
+	}
+	.footer-cards {
+		width: 35%;
+		margin-bottom: 21px;
+	}
+	.footer-column-last {
+		border: none;
+	}
+	.footer-social {
+		width: 20%;
+	}
+	.footer-inner {
+		padding-bottom: 0;
+		padding-top: 40px;
+	}
+	.menu-inner {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 @media only screen and (max-width: 759px) and (min-width: 527px) {
 	#nav-icon3 {
@@ -206,6 +255,55 @@
 	.food-menu-list-item-left-special::before {
 		right: -1px;
 	}
+	.reviews-center-side h2 {
+		font-size: 30px;
+	}
+	.reviews-center-side p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.reservations-first-img {
+		display: none;
+	}
+	.reservations-second-img {
+		display: none;
+	}
+	.reservations-form-inner  {
+		width: 100%;
+	}
+	.reservations-form-column {
+		width: 100%;
+	}
+	.reservations-form-column {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.footer-column {
+		width: 100%;
+		border-bottom: 1px solid #999;
+		margin-bottom: 20px;
+	}
+	.footer-column-inner p {
+		padding-top: 10px;
+	}
+	.footer-cards {
+		width: 35%;
+		margin-bottom: 21px;
+	}
+	.footer-column-last {
+		border: none;
+	}
+	.footer-social {
+		width: 20%;
+	}
+	.footer-inner {
+		padding-bottom: 0;
+		padding-top: 40px;
+	}
+	.menu-inner {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 @media only screen and (max-width: 979px) and (min-width: 760px){
 	.header-inner {
@@ -258,6 +356,37 @@
 	.food-menu-list-item-left-special::before {
 		right: -1px;
 	}
+	.reservations-first-img {
+		display: none;
+	}
+	.reservations-second-img {
+		width: 40%;
+	}
+	.reservations-form-inner {
+		width: 60%;
+	}
+	.footer-column {
+		width: 100%;
+		border-bottom: 1px solid #999;
+		margin-bottom: 20px;
+	}
+	.footer-column-inner p {
+		padding-top: 10px;
+	}
+	.footer-cards {
+		width: 35%;
+		margin-bottom: 21px;
+	}
+	.footer-column-last {
+		border: none;
+	}
+	.footer-social {
+		width: 20%;
+	}
+	.footer-inner {
+		padding-bottom: 0;
+		padding-top: 40px;
+	}
 }
 @media only screen and (max-width: 1139px) and (min-width: 980px) {
 	.container {
@@ -271,6 +400,9 @@
 	}
 	.food-menu-list-item-left-special::before {
 		right: -1px;
+	}
+	.reservations-img01, .reservations-img02 {
+		height: 380px;
 	}
 }
 @media only screen and (min-width: 1140px) {

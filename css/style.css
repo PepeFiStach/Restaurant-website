@@ -18,7 +18,9 @@ body {
 	clear: both;
 }
 .banner-button-1, .banner-button-2, .about-left-side > p,
-.ingredients-right-side > p, .food-menu-list-item-left-text > p {
+.ingredients-right-side > p, .food-menu-list-item-left-text > p,
+.reservations-form-inner > p, .reservations-form-column > label, 
+.reservations-button > a, .footer-column-inner p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-size: 1rem;
@@ -569,6 +571,8 @@ body {
 .menu-inner {
 	padding-top: 70px;
 	padding-bottom: 70px;
+	padding-left: 0;
+	padding-right: 0;
 }
 .food-menu-left {
 	float: left;
@@ -671,6 +675,279 @@ body {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
 }
-
-
+#reviews {
+	background-image: url("../img/reviews-bg.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+.reviews-inner {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.reviews-center-side {
+	background-color: rgba(0,0,0,0.8);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 60%;
+	padding: 50px 60px;
+}
+.reviews-center-side h2 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+.reviews-divider {
+	background-image: url("../img/divider-white.svg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 270px;
+	height: 40px;
+}
+.reviews-center-side p {
+	color: #fff;
+	/*padding: 20px 30px 0 30px;*/
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 36px;
+	font-style: italic;
+}
+.reviews-center-side span {
+	font-size: 13px;
+	color: #fff;
+	font-weight: 700;
+}
+#reservations {
+	background-image: url("../img/pw-maze-white.png");
+	background-repeat: repeat;
+	background-position: 50% 50%;
+	width: 100%;
+	height: auto;
+}
+.reservations-inner {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.reservations-first-img {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	width: 25%;
+	height: auto;
+}
+.reservations-img01 {
+	background-image: url("../img/food-01.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+	max-width: 100%;
+	height: 450px;
+}
+.reservations-second-img {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	width: 25%;
+	height: auto;
+}
+.reservations-img02 {
+	background-image: url("../img/food-02.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+	max-width: 100%;
+	height: 450px;
+}
+.reservations-form-inner {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.reservations-form-inner h2 {
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 400;
+	color: #c90;
+	margin: 0;
+}
+.reservations-divider {
+	background-image: url("../img/divider-gold.svg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 270px;
+	height: 40px;
+}
+.reservations-form-column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+.reservations-form-column label{
+	display: block;
+	text-align: left;
+	font-weight: 700;
+	font-size: 18px;
+}
+.reservations-form-column input{
+	width: 100%;
+	box-sizing: border-box;
+	height: 36px;
+	border: 1px solid #ccc;
+	background: rgba(255,255,255,.8);
+}
+.reservations-form-column select{
+	width: 100%;
+	box-sizing: border-box;
+	height: 36px;
+	border: 1px solid #ccc;
+	background: rgba(255,255,255,.8);
+	font-size: 18px;
+	font-weight: 400;
+}
+[type="text"] {
+	padding: 10px;
+	font-size: 18px;
+	color: rgba(0,0,0,.2);
+}
+.reservations-button {
+	background-color: #c90;
+	width: 180px;
+	height: 45px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reservations-button > a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+#footer {
+	background-color: #212121;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.footer-inner{
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+.footer-column {
+	width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+.footer-column-inner {
+	padding: 0 10px;
+	margin: 0 30px;
+}
+.footer-column-inner h3 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 0;
+}
+.footer-divider {
+	background-image: url(../img/divider-sm-white.svg);
+	width: 200px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer-column-inner p {
+	color: #999;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+}
+.footer-column-inner p:nth-child(4) {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+.footer-text {
+	margin-bottom: 0;
+}
+.footer-column-inner p span {
+	color: #fff;
+	font-weight: 600;
+}
+.footer-cards {
+	width: 80%;
+	margin: 0 auto;
+}
+.mc, .v, .ex, .pp {
+	width: 25%;
+	height: 32px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	box-sizing: border-box;
+}
+.mc, .v, .ex, .pp span{
+	color: transparent;
+}
+.mc {
+	background-image: url("../img/mastercard-white.svg");
+}
+.v {
+	background-image: url("../img/visa-white.svg");
+}
+.ex {
+	background-image: url("../img/american-express-white.svg");
+}
+.pp {
+	background-image: url("../img/paypal-white.svg");
+}
+.footer-social {
+	width: 40%;
+	margin: 0 auto;
+}
+.tw, .f, .gp, .yt {
+	width: 25%;
+	height: 32px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	box-sizing: border-box;
+}
+.tw, .f, .gp, .yt span{
+	color: transparent;
+}
+.tw {
+	background-image: url("../img/twitter-white.svg");
+}
+.f {
+	background-image: url("../img/facebook-white.svg");
+}
+.gp {
+	background-image: url("../img/google-plus-white.svg");
+}
+.yt {
+	background-image: url("../img/youtube-white.svg");
+}
 
