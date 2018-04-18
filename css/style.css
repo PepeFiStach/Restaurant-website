@@ -79,10 +79,6 @@ body {
 	padding: 52px 22px 0 22px;
 	position: relative;
 }
-
-
-/* DO ANALIZY */
-
 .navigation-menu-item::before {
 	width: 0px;
 	transition: all .2s;
@@ -94,26 +90,14 @@ body {
 	display: block;
 	content: " ";
 }
-
-/* KONIEC DO ANALIZY */
-
-
 .navigation-menu a {
 	color: #fff;
 	text-decoration: none;
 }
-
-
-/* DO ANALIZY */
-
 .navigation-menu-item:hover:before {
 	left: 0;
 	width: 100%;
 }
-
-/* KONIEC DO ANALIZY */
-
-
 .navigation-social {
 	float: left;
 	list-style: none;
@@ -232,7 +216,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 80vh;
+	height: auto;
 	text-align: center;
 }
 .wallpaper {
@@ -243,10 +227,8 @@ body {
 	height: 75vh;*/
 }
 .banner-inner {
-	/*padding: 20px;*/
-	/*top: 22%;*/
-	/*position: relative;*/
 	padding-top: 180px;
+    padding-bottom: 100px;
 }
 .banner-text {
 	font-size: 80px;
@@ -342,8 +324,7 @@ body {
 	background-image: url("../img/contemporary-china.png");
 	background-repeat: repeat;
 	width: 100%;
-	height: 60vh;
-	/*position: relative;*/
+	height: auto;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	display: flex;
@@ -444,7 +425,11 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 70vh;
+	height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -927,7 +912,7 @@ body {
 	width: 40%;
 	margin: 0 auto;
 }
-.tw, .f, .gp, .yt {
+.tw-footer, .f-footer, .gp-footer, .yt-footer {
 	width: 25%;
 	height: 32px;
 	float: left;
@@ -935,19 +920,19 @@ body {
 	background-position: 50% 50%;
 	box-sizing: border-box;
 }
-.tw, .f, .gp, .yt span{
+.tw-footer, .f-footer, .gp-footer, .yt-footer span{
 	color: transparent;
 }
-.tw {
+.tw-footer {
 	background-image: url("../img/twitter-white.svg");
 }
-.f {
+.f-footer {
 	background-image: url("../img/facebook-white.svg");
 }
-.gp {
+.gp-footer {
 	background-image: url("../img/google-plus-white.svg");
 }
-.yt {
+.yt-footer {
 	background-image: url("../img/youtube-white.svg");
 }
 
